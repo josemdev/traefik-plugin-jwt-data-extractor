@@ -1,0 +1,14 @@
+displayName: JWT Field as Header
+type: middleware
+
+import: github.com/josemdev/traefik-plugin-jwt-data-extractor
+
+summary: 'Make custom header from JWT data, can be used for user-based ratelimiting'
+
+testData:
+  jwtHeaderName: X-ApiKey
+  jwtField: customer_id
+  valueHeaderName: X-UserId-RateLimit
+  fallbacks:
+    - type: ip
+  debug: true
