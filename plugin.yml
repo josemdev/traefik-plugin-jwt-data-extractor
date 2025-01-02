@@ -1,0 +1,7 @@
+# plugin.yml
+
+id: "github.com/josemdev/traefik-plugin-jwt-data-extractor"
+name: "jwt-data-extractor"
+version: "1.0.0"
+description: "Middleware para extraer datos de JWT y propagar encabezados con estrategias de fallback"
+author: "Tu Nombre <tu.email@example.com>"
